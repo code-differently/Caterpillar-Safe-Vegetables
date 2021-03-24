@@ -1,8 +1,9 @@
 
 // Part 2-0
 
-function zero(){
+function createTable(){
 
+    // input
     let data = 
         `name, age, role
         Kaleb Burd, 24, Instructor
@@ -10,9 +11,11 @@ function zero(){
         Harry Potter, 18, Student
         Gollum, 589, Student
         Bill Gates, 65, Student`;
-        
+       
+    // split each line into a single record with header
     let rows = data.split("\n");
 
+    // seperate each row record into it's field record by delimeter
     for(let i = 0; i < rows.length; i++){
         rows[i] = rows[i].split(", ")
     }
@@ -23,7 +26,7 @@ function zero(){
 
 
 // Part 2-1
-function one(){
+function SumAge(){
     
     let data = 
         `name, age, role
@@ -32,15 +35,17 @@ function one(){
         Harry Potter, 18, Student
         Gollum, 589, Student
         Bill Gates, 65, Student`;
-        
+       
     let rows = data.split("\n");
 
     for(let i = 0; i < rows.length; i++){
         rows[i] = rows[i].split(", ")
     }
 
+    // declare and initialize int variable to sum age
     let total = 0;
 
+    // get age value of each row and cast to Number then add to total variable
     for(let i = 0; i < rows.length; i++){
         let age = Number(rows[i][1]);
         total += age;
@@ -50,7 +55,7 @@ function one(){
 }
 
 // Part 2-2
-function two(){
+function getAverage(){
 
     let data = 
         `name, age, role
@@ -73,6 +78,7 @@ function two(){
         total += age;
     }
 
+    // get average of the age variable
     let average = total/rows.length
 
     console.log(average);
@@ -80,7 +86,7 @@ function two(){
 }
 
 // Part 2-3
-function three(){
+function getLargestAge(){
 
     let data = 
         `name, age, role
@@ -98,6 +104,7 @@ function three(){
 
     let largest = -1;
 
+    // get largest age
     for(let i = 0; i < rows.length; i++){
         let age = Number(rows[i][1]);
         if(largest < age){
@@ -110,7 +117,7 @@ function three(){
 }
 
 //Part 2-4
-function four(){
+function getOldestPerson(){
 
     let data = 
         `name, age, role
@@ -129,6 +136,7 @@ function four(){
     let largest = -1;
     let person;
 
+    // get oldest person
     for(let i = 0; i < rows.length; i++){
         let age = Number(rows[i][1]);
         if(largest < age){

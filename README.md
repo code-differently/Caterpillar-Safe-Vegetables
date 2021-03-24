@@ -18,10 +18,10 @@ Bill Gates, 65, Student
 
 Find definitions for the following concepts. Translate each definition into your own words.
 
-* CSV
-* Header
-* Record
-* Delimiter
+* CSV - comma seperated value
+* Header - field names
+* Record - row 
+* Delimiter - character denoting end of field value
 
 ## Part 2: Read
 
