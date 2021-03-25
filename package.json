@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/code-differently/Caterpillar-Safe-Vegetables/issues"
   },
-  "homepage": "https://github.com/code-differently/Caterpillar-Safe-Vegetables#readme"
+  "homepage": "https://github.com/code-differently/Caterpillar-Safe-Vegetables#readme",
+  "dependencies": {
+    "test": "^0.6.0"
+  }
 }

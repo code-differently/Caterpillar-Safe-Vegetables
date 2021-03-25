@@ -19,16 +19,21 @@ Bill Gates, 65, Student
 Find definitions for the following concepts. Translate each definition into your own words.
 
 * CSV
+a list of data, where the records are presented
 * Header
+the top of a page, showing the "title" or descriptions of records
 * Record
+the information that is presented in a csv
 * Delimiter
-
+what seperates the values, the "comma", which could be several different things.
 ## Part 2: Read
 
 Read over the code provided and preform the following actions on each code snippet:
 
 * Preform a trace on the code to determine the output
+
 * Comment the code to explain what each line does
+
 * Rename the function to reflect what the function's purpose
 
 ## Part 3: Write
