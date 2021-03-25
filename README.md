@@ -19,9 +19,13 @@ Bill Gates, 65, Student
 Find definitions for the following concepts. Translate each definition into your own words.
 
 * CSV
+// data record file containing different fields (saved in tabular form) separated by comma.
 * Header
+// array of values defining different columns (label for each column)
 * Record
+// rows of the file
 * Delimiter
+// separator like comma, semi colon, tab, space or pipe
 
 ## Part 2: Read
 
