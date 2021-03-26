@@ -18,10 +18,10 @@ Bill Gates, 65, Student
 
 Find definitions for the following concepts. Translate each definition into your own words.
 
-* CSV
-* Header
-* Record
-* Delimiter
+* CSV  A file type of comma separated values. A format to store text data
+* Header First row in the CSV  and names assigned to each of the columns
+* Record Group of related data elements represented by a row
+* Delimiter Any character may be used to separate the values in a CSV file, but the most common delimiters are the comma, tab, colon, pipes and newline.
 
 ## Part 2: Read
 
